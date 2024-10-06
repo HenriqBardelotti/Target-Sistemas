@@ -5,10 +5,11 @@
 
 int main(){
     int numero;
+    printf("Informe um numero para verificacao: ");
     scanf("%d", &numero);
 
     if (numero == 0 || numero == 1) {
-        printf("O numero %d pertence a sequecencia de Fibonacci\n", numero);
+        printf("\nO numero %d pertence a sequecencia de Fibonacci\n", numero);
         return 0;
     }
 
@@ -23,9 +24,9 @@ int main(){
     }
 
     if(fibonacci == numero)
-        printf("O numero %d pertence a sequecencia de Fibonacci\n", numero);
+        printf("\nO numero %d pertence a sequecencia de Fibonacci\n", numero);
     else
-        printf("O numero %d nao pertence a sequecencia de Fibonacci\n", numero);
+        printf("\nO numero %d nao pertence a sequecencia de Fibonacci\n", numero);
 
     return 0;
 }
